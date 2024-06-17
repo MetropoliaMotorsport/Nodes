@@ -2236,6 +2236,94 @@
 		)
 		(uuid "fff2afb3-8476-4a33-8c4d-0ce62d12d3e5")
 	)
+	(global_label "CAN2LO"
+		(shape bidirectional)
+		(at 237.49 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "272a5e5c-6236-47ff-849e-f5cd79a4a5ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8437 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN1LO"
+		(shape bidirectional)
+		(at 229.87 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ab613f0-5da4-4c86-9277-39b62bb0bde1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.2237 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN1HI"
+		(shape bidirectional)
+		(at 229.87 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8603f6bc-8a64-483f-bb57-bff1c3f3cce6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.8004 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN2HI"
+		(shape bidirectional)
+		(at 237.49 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c676ebac-7bdb-4eae-99e0-94fbc42e2da8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.4204 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "CAN1Tx"
 		(shape input)
 		(at 85.09 100.33 180)
@@ -2247,42 +2335,6 @@
 			(justify right)
 		)
 		(uuid "06d97bfd-7b33-4744-aeb5-5ecd813828cb")
-	)
-	(hierarchical_label "CAN1HI"
-		(shape passive)
-		(at 229.87 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0af7467c-5763-4f7a-b031-cf0a770c8700")
-	)
-	(hierarchical_label "CAN2HI"
-		(shape passive)
-		(at 237.49 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1fd9babc-57f6-48e2-83b2-9b803183af0a")
-	)
-	(hierarchical_label "CAN1LO"
-		(shape passive)
-		(at 229.87 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2543e558-b630-4034-9a71-6e6223e3631e")
 	)
 	(hierarchical_label "CAN2Tx"
 		(shape input)
@@ -2307,18 +2359,6 @@
 			(justify right)
 		)
 		(uuid "75240f2b-a194-493e-96d4-b2e1d083d8cc")
-	)
-	(hierarchical_label "CAN2LO"
-		(shape passive)
-		(at 237.49 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae49fc1b-eebc-46dc-90a0-001a3ab2421a")
 	)
 	(hierarchical_label "CAN2Rx"
 		(shape output)

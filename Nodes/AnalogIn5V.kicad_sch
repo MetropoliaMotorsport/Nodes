@@ -3675,8 +3675,8 @@
 		)
 		(uuid "589d7ec8-30b7-40d7-b017-aca6626654a2")
 	)
-	(hierarchical_label "AnIN5V_5"
-		(shape input)
+	(global_label "AnIN5V_5"
+		(shape output)
 		(at 153.67 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3685,10 +3685,86 @@
 			)
 			(justify right)
 		)
-		(uuid "0183058d-b2ed-451a-8e4a-688e16754093")
+		(uuid "41fda3cc-f229-4781-b4ff-a364665bd332")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.0367 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "AnIN5V_1"
-		(shape input)
+	(global_label "AnIN5V_4"
+		(shape output)
+		(at 25.4 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a067609-474b-48f2-9f4e-07a665d421e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.7667 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AnIN5V_2"
+		(shape output)
+		(at 25.4 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a5c3f14-476b-47d9-b9f4-7962c1ba578b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.7667 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AnIN5V_3"
+		(shape output)
+		(at 154.94 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82c1e464-e0d1-4fd4-b90d-bf7f2e63c728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.3067 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AnIN5V_1"
+		(shape output)
 		(at 153.67 25.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3697,7 +3773,61 @@
 			)
 			(justify right)
 		)
-		(uuid "0bce8c09-2f46-46b3-9bef-75b70b5482e8")
+		(uuid "a9917874-6862-4cdd-bb9d-940a3dd776bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.0367 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AnIN5V_0"
+		(shape output)
+		(at 26.67 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdfdf468-8b1a-498a-8bb2-23dbe8b92a2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.0367 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AnIN5V_6"
+		(shape output)
+		(at 24.13 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9d0fd95-dbeb-42da-8ccc-de7c3eef1078")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.4967 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "ADC6"
 		(shape output)
@@ -3710,42 +3840,6 @@
 			(justify left)
 		)
 		(uuid "101bd746-2246-4d88-ae60-edb084ec3ec8")
-	)
-	(hierarchical_label "AnIN5V_6"
-		(shape input)
-		(at 24.13 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18fb139a-d6e4-4c39-8476-55c3c1a25dda")
-	)
-	(hierarchical_label "AnIN5V_2"
-		(shape input)
-		(at 25.4 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4487cb4c-e28d-45ff-8d79-ef2b83c0260a")
-	)
-	(hierarchical_label "AnIN5V_3"
-		(shape input)
-		(at 154.94 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58b8fd63-0446-4280-bfd5-972b34f4bf70")
 	)
 	(hierarchical_label "ADC2"
 		(shape output)
@@ -3795,18 +3889,6 @@
 		)
 		(uuid "7adc0208-299f-4a29-a232-f2d68e5a58d3")
 	)
-	(hierarchical_label "AnIN5V_4"
-		(shape input)
-		(at 25.4 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c425086-a084-41ea-b9d4-211c10b60dcc")
-	)
 	(hierarchical_label "ADC8"
 		(shape output)
 		(at 158.75 172.72 0)
@@ -3818,18 +3900,6 @@
 			(justify left)
 		)
 		(uuid "8f8e70b3-7b4a-4056-896d-b72fdb062341")
-	)
-	(hierarchical_label "AnIN5V_0"
-		(shape input)
-		(at 26.67 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c6e8d38-b515-47b7-aa85-67f32d7b9c43")
 	)
 	(hierarchical_label "ADC7"
 		(shape output)

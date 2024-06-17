@@ -848,8 +848,8 @@
 		)
 		(uuid "fe85470f-c196-4ec5-b9fe-23f379c47e42")
 	)
-	(hierarchical_label "CANLO"
-		(shape passive)
+	(global_label "CAN2LO"
+		(shape bidirectional)
 		(at 185.42 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -858,7 +858,39 @@
 			)
 			(justify left)
 		)
-		(uuid "0eb5b11a-9398-44c2-a335-a399b5a4c693")
+		(uuid "ce924eb3-ca28-431e-ad90-55066b18f693")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.7737 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN2HI"
+		(shape bidirectional)
+		(at 185.42 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff39d75c-eab8-4f89-87f0-06516f4b21d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.3504 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "CANTx"
 		(shape input)
@@ -871,18 +903,6 @@
 			(justify right)
 		)
 		(uuid "9715e05b-97db-4da6-a67d-b493692f52a1")
-	)
-	(hierarchical_label "CANHI"
-		(shape passive)
-		(at 185.42 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6c42da5-f10b-4a87-9c4a-2dbf6dd51052")
 	)
 	(hierarchical_label "CANRx"
 		(shape output)

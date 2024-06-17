@@ -1816,6 +1816,10 @@
     [
       "71061511-1fe7-4225-bf83-2505305e7872",
       "Power5V"
+    ],
+    [
+      "ccfc9c40-df79-4f91-a8af-47d4c16b17e5",
+      "Power3V3_An"
     ]
   ],
   "text_variables": {

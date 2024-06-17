@@ -2249,6 +2249,72 @@
 		)
 		(uuid "f72119ef-63f1-4363-9e51-5e126df01391")
 	)
+	(global_label "AnIN24V_1"
+		(shape output)
+		(at 19.05 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c609fb9-33c3-42ff-8a04-c3b93e3a92ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.8928 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AnIN24V_2"
+		(shape output)
+		(at 152.4 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a788cfeb-a327-408e-b638-c3ac818a28b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.5572 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AnIN24V_0"
+		(shape output)
+		(at 151.13 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f004d364-4a1d-4cad-9b0c-9da8517f0948")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.2872 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "ADC14"
 		(shape output)
 		(at 144.78 66.04 0)
@@ -2260,42 +2326,6 @@
 			(justify left)
 		)
 		(uuid "42ba4e52-0beb-44f0-ac92-faffa8cdc8c4")
-	)
-	(hierarchical_label "AnIN24V_0"
-		(shape input)
-		(at 151.13 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65823890-8ba1-49b5-ae4c-bdc597d00046")
-	)
-	(hierarchical_label "AnIN24V_2"
-		(shape input)
-		(at 152.4 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ec4f033-6ae3-4554-a2f6-ef090c7b40fa")
-	)
-	(hierarchical_label "AnIN24V_1"
-		(shape input)
-		(at 19.05 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a72f80e4-dd4d-4bde-a00d-72dcb06701d0")
 	)
 	(hierarchical_label "ADC13"
 		(shape output)
