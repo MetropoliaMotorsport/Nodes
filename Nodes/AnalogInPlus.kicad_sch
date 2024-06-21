@@ -445,7 +445,7 @@
 			(xy 203.2 96.52) (xy 205.74 96.52)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "03ec969b-d975-4524-b9cb-e4575adb99a8")
@@ -455,7 +455,7 @@
 			(xy 205.74 101.6) (xy 203.2 101.6)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "0ae7932f-52b9-4931-9f89-5592a1efa4bf")
@@ -465,7 +465,7 @@
 			(xy 81.28 104.14) (xy 78.74 104.14)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "236cf9b1-f976-4ad3-9590-c7dd85c24964")
@@ -475,7 +475,7 @@
 			(xy 172.72 99.06) (xy 182.88 99.06)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "296c1d76-8cb7-4f46-8fa6-0f1d64c63af7")
@@ -485,7 +485,7 @@
 			(xy 81.28 96.52) (xy 78.74 96.52)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "32c0b3dc-57df-4720-83bd-78b153a5323e")
@@ -495,7 +495,7 @@
 			(xy 205.74 104.14) (xy 203.2 104.14)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "3c035370-6685-42ec-b391-4a2390436644")
@@ -505,7 +505,7 @@
 			(xy 78.74 101.6) (xy 81.28 101.6)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "4ff5cbbf-0171-4179-88eb-6b3b05bcab6b")
@@ -515,7 +515,7 @@
 			(xy 71.12 99.06) (xy 81.28 99.06)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "579a57e8-2674-4b10-9a90-894bf47bfbc8")
@@ -525,7 +525,7 @@
 			(xy 101.6 99.06) (xy 118.11 99.06)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "70743722-7a29-46ec-b761-8bad6897547e")
@@ -535,7 +535,7 @@
 			(xy 104.14 104.14) (xy 101.6 104.14)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "7e1f1a54-c931-47e5-b17e-f1b89c09d2d6")
@@ -545,7 +545,7 @@
 			(xy 182.88 104.14) (xy 180.34 104.14)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "89dbc64d-ffb6-4930-8d4e-dc8d74d14a23")
@@ -555,7 +555,7 @@
 			(xy 203.2 99.06) (xy 219.71 99.06)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "9e2906d6-6dea-4e98-abab-bb4fd7ab748d")
@@ -565,7 +565,7 @@
 			(xy 180.34 101.6) (xy 182.88 101.6)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "a8002041-c049-4fb3-a89d-4a4f00a71b68")
@@ -575,7 +575,7 @@
 			(xy 101.6 96.52) (xy 104.14 96.52)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "b2acb4c4-d998-4ac4-9176-75efdd7ed6b2")
@@ -585,7 +585,7 @@
 			(xy 104.14 101.6) (xy 101.6 101.6)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "c2ce7827-afd6-4480-a626-9d1483d3c6c9")
@@ -595,7 +595,7 @@
 			(xy 180.34 96.52) (xy 182.88 96.52)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
 		(uuid "d76e3be1-779c-43d4-9414-134f24a275c9")
@@ -1110,6 +1110,114 @@
 				(hide yes)
 			)
 		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 81.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c0e4c54-2a1b-459a-8226-c5a9eccd988e")
 		)
@@ -1356,6 +1464,114 @@
 			)
 		)
 		(property "VOLTAGE RATING DC" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
 			(at 182.88 96.52 0)
 			(effects
 				(font

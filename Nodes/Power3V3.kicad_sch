@@ -255,163 +255,6 @@
 				)
 			)
 		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -702,78 +545,116 @@
 				)
 			)
 		)
-		(symbol "Untitled-altium-import:root_0_LT-LT3970_B-MS-10"
+		(symbol "Regulator_Linear:ST730MR"
+			(pin_names
+				(offset 0.762)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "ST730MR"
+				(at 24.13 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ST730MR.pdf"
+				(at 24.13 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "350 mA Step-Down Regulator with 2.5 uA Quiescent Current and Integrated Diodes, 10-pin SOP (MS-10), -40 to 125 degC, Pb-Free, Tape and Reel"
-				(at 0 0 0)
+			(property "Description" "LDO Voltage Regulators SOT 23 5L"
+				(at 24.13 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LT-MS-10_N"
-				(at 0 0 0)
+			(property "Height" "1.45"
+				(at 24.13 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "root_0_LT-LT3970_B-MS-10_1_0"
-				(rectangle
-					(start 20.32 0)
-					(end 0 -22.86)
-					(stroke
-						(width 0)
-						(type solid)
+			(property "Mouser Part Number" "511-ST730MR"
+				(at 24.13 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type background)
-					)
+					(justify left)
+					(hide yes)
 				)
-				(pin input line
-					(at 25.4 -12.7 180)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST730MR?qs=%252B6g0mu59x7Iit7hjrqUHvA%3D%3D"
+				(at 24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 24.13 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ST730MR"
+				(at 24.13 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "ST730MR_0_0"
+				(pin passive line
+					(at 0 0 0)
 					(length 5.08)
-					(name "FB"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -789,27 +670,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 0)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "RT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -7.62 0)
-					(length 5.08)
-					(name "EN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -824,8 +687,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -5.08 -2.54 0)
+				(pin passive line
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "VIN"
 						(effects
@@ -842,10 +705,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -17.78 180)
+				(pin passive line
+					(at 27.94 0 180)
 					(length 5.08)
-					(name "GND"
+					(name "ADJ"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -860,10 +723,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -20.32 180)
+				(pin passive line
+					(at 27.94 -2.54 180)
 					(length 5.08)
-					(name "GND"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -878,76 +741,18 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(symbol "ST730MR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.1524)
+						(type solid)
 					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "BOOST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "BD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -5.08 -12.7 0)
-					(length 5.08)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1072,7 +877,7 @@
 				)
 			)
 		)
-		(symbol "power:+24V"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1089,7 +894,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1115,7 +920,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1133,7 +938,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1171,7 +976,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1386,829 +1191,414 @@
 		)
 	)
 	(junction
-		(at 111.76 77.47)
+		(at 113.03 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33128de6-97be-41c1-87f4-ca68f0252eac")
+		(uuid "054c3d1f-490c-45ef-ab73-9a7797bc3b71")
 	)
 	(junction
-		(at 157.48 118.11)
+		(at 133.35 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34f5be2b-cc62-449b-9a02-ca12091dba16")
+		(uuid "13d519cc-c7eb-4fcf-af9a-7d5b056b613d")
 	)
 	(junction
-		(at 187.96 100.33)
+		(at 113.03 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40b864e0-2967-465b-ba0b-8141a39ba6fd")
+		(uuid "4aa6d97f-a4d4-4692-bbf8-99bdf2327751")
 	)
 	(junction
-		(at 226.06 118.11)
+		(at 101.6 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44c31600-f9fa-4d4c-8045-07aaa4b31ff2")
+		(uuid "5d228f70-0f9a-4a66-be2b-76f03d6492ec")
 	)
 	(junction
-		(at 160.02 82.55)
+		(at 133.35 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4545b77c-b36a-443f-8b3d-4bcbba23e71c")
+		(uuid "8b3a5d46-ded0-45a9-abab-6c53e1672315")
 	)
 	(junction
-		(at 226.06 82.55)
+		(at 177.8 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46b31070-d9a3-44d4-9790-45eb200a1766")
+		(uuid "938495bb-576e-423e-ba5f-c1de169aa607")
 	)
 	(junction
-		(at 157.48 95.25)
+		(at 130.81 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b00db61-8230-4293-a02c-b7f6bce74e57")
+		(uuid "9aeafada-98a8-450a-8fb7-166620e6f4a0")
 	)
 	(junction
-		(at 96.52 77.47)
+		(at 101.6 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "503bba6f-2cd4-4733-8643-9b3a41cf7a51")
+		(uuid "a705727a-7075-4bba-b343-f16b8fe23711")
 	)
 	(junction
-		(at 187.96 118.11)
+		(at 139.7 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5449ae05-7c71-40d4-8b26-60c74442920c")
+		(uuid "ac20686e-674f-4efd-a7b3-5af3df842004")
 	)
 	(junction
-		(at 81.28 77.47)
+		(at 96.52 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b785b14-6e76-4ae7-862d-baf12bf2f94f")
-	)
-	(junction
-		(at 255.27 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6daa9349-f1c6-4703-ac48-5aeacd4c87de")
-	)
-	(junction
-		(at 187.96 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e0be806-4956-457b-9632-22c9d5d4a372")
+		(uuid "d12ae31a-258f-4330-aeff-409ab5616933")
 	)
-	(junction
-		(at 200.66 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83efb6d4-9095-4c3b-bee1-51aade3cbfea")
-	)
-	(junction
-		(at 236.22 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96ba4fad-70cc-404b-a17f-99f708d0378a")
-	)
-	(junction
-		(at 236.22 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f7e8f36-2958-419b-9231-1d677fd005cf")
-	)
-	(junction
-		(at 81.28 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a10c3685-17ce-4ec0-90b1-9766d5b777e3")
-	)
-	(junction
-		(at 160.02 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8031d0c-2fcc-439a-b049-b5ccfd2da7f8")
-	)
-	(junction
-		(at 194.31 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba643548-175a-4c97-a6f4-a1d9b017a2ca")
-	)
-	(junction
-		(at 171.45 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c47e2635-b5c1-4ef7-8c06-c8a841ede4d1")
-	)
-	(junction
-		(at 251.46 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d16b25d9-d3ce-4a59-9e0b-f5b4454fca27")
-	)
-	(junction
-		(at 242.57 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d553030a-8817-4878-a1be-49ea08bfcd42")
-	)
-	(junction
-		(at 200.66 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5ff4771-997e-431b-9031-b2e4c824afdb")
-	)
-	(junction
-		(at 163.83 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1949fd0-37f4-4528-b980-a68327b55542")
-	)
-	(junction
-		(at 96.52 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2dfab46-0de6-4af3-99b3-9e25937bda30")
-	)
-	(junction
-		(at 109.22 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f38c629e-fae4-4e04-897c-62fda9f1af43")
-	)
-	(no_connect
-		(at 119.38 87.63)
-		(uuid "fa347a5d-07d8-4007-aeb4-cfb47caa1107")
-	)
-	(wire
-		(pts
-			(xy 171.45 80.01) (xy 177.8 80.01)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0b3ac0fb-3a41-4e3e-8df1-cca842b57345")
-	)
-	(wire
-		(pts
-			(xy 96.52 77.47) (xy 111.76 77.47)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0df21ecb-a201-4dbf-9545-7f01b5c0d462")
-	)
-	(wire
-		(pts
-			(xy 226.06 82.55) (xy 236.22 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0f477b6c-6fa5-4fb5-89a1-faa8c7198454")
-	)
-	(wire
-		(pts
-			(xy 251.46 118.11) (xy 236.22 118.11)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "1f7c005f-adf6-44be-b1de-b91fe1ce5d91")
-	)
-	(wire
-		(pts
-			(xy 119.38 95.25) (xy 109.22 95.25)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2011df76-7d18-4a31-bf86-13892f1f3180")
-	)
-	(wire
-		(pts
-			(xy 226.06 95.25) (xy 226.06 104.14)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "286fe2c2-1e67-437f-9b4b-dcf5e0aad0fb")
-	)
-	(wire
-		(pts
-			(xy 149.86 72.39) (xy 149.86 77.47)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2ab3865a-4b20-419f-ab5c-5171b1d8aa90")
-	)
-	(wire
-		(pts
-			(xy 251.46 102.87) (xy 251.46 118.11)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2e4c7956-b4c5-4b21-b794-ef05d2d2184c")
-	)
-	(wire
-		(pts
-			(xy 96.52 118.11) (xy 96.52 100.33)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2e9dca4c-bcea-41dd-bd9f-d5c2b01f590c")
-	)
-	(wire
-		(pts
-			(xy 157.48 118.11) (xy 157.48 95.25)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "33f9c05d-7614-463a-9b11-90e4ea2a6175")
-	)
-	(wire
-		(pts
-			(xy 200.66 82.55) (xy 200.66 95.25)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "34815c7d-6e7e-4541-a3e1-3efeb07c7385")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.25) (xy 109.22 101.6)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "34e82105-7196-4d89-995b-4f50e57808f8")
-	)
-	(wire
-		(pts
-			(xy 187.96 80.01) (xy 185.42 80.01)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "35ad0fca-b5fa-427d-bbce-f529f65d4af1")
-	)
-	(wire
-		(pts
-			(xy 236.22 102.87) (xy 236.22 118.11)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "37cad42c-4bb5-4331-8af1-f666da7aaca5")
-	)
-	(wire
-		(pts
-			(xy 226.06 118.11) (xy 236.22 118.11)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "3b6008a9-c749-43e0-a21a-8b2c021f8405")
-	)
-	(wire
-		(pts
-			(xy 194.31 82.55) (xy 200.66 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "3bfbee2c-0188-4d26-81b6-c9af90636d1d")
-	)
-	(wire
-		(pts
-			(xy 160.02 82.55) (xy 187.96 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "3fbb6b86-1e28-44bb-81d4-a620616f8343")
-	)
-	(wire
-		(pts
-			(xy 200.66 82.55) (xy 203.2 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "4d986342-6541-42e6-9e20-11ae794909c7")
-	)
-	(wire
-		(pts
-			(xy 242.57 69.85) (xy 242.57 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "5380e710-c827-4d28-aec7-fc03f7fe1bff")
-	)
-	(wire
-		(pts
-			(xy 157.48 95.25) (xy 149.86 95.25)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "53a9dcf7-e61e-47da-a329-a09d61c3f103")
-	)
-	(wire
-		(pts
-			(xy 236.22 82.55) (xy 236.22 95.25)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "53fac8ff-8f33-4681-b026-eb6dfdf58fb1")
-	)
-	(wire
-		(pts
-			(xy 210.82 82.55) (xy 226.06 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "5bfac892-99dc-4f41-b302-3b2ed75480b4")
-	)
-	(wire
-		(pts
-			(xy 111.76 77.47) (xy 119.38 77.47)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "695dafe8-64f5-4a64-b4de-ae80ddda41f7")
-	)
-	(wire
-		(pts
-			(xy 119.38 82.55) (xy 111.76 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "7159ed79-b29c-4004-86a4-e04f47d793be")
-	)
-	(wire
-		(pts
-			(xy 58.42 120.65) (xy 58.42 118.11)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "8051ce66-0c15-43ff-882e-7468c7c8d1db")
-	)
-	(wire
-		(pts
-			(xy 149.86 72.39) (xy 163.83 72.39)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "80a6302e-462f-4edb-b412-6dc5ed4dfa44")
-	)
-	(wire
-		(pts
-			(xy 157.48 118.11) (xy 187.96 118.11)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "8196c4ea-ac8a-46f4-966b-fb8e71f96685")
-	)
-	(wire
-		(pts
-			(xy 226.06 111.76) (xy 226.06 118.11)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "88434caf-ed11-4ac5-85ce-747c32a7cbdc")
-	)
-	(wire
-		(pts
-			(xy 187.96 118.11) (xy 187.96 113.03)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "8cb65ccc-17ff-4377-828b-4ebf6087b86b")
-	)
-	(wire
-		(pts
-			(xy 250.19 69.85) (xy 242.57 69.85)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "8d80f8f7-aecd-471e-9cb5-ca1617e183ef")
-	)
-	(wire
-		(pts
-			(xy 255.27 82.55) (xy 251.46 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "8ed09806-5d6f-4ed8-97cc-904db9d5df41")
-	)
 	(wire
 		(pts
-			(xy 200.66 102.87) (xy 200.66 118.11)
+			(xy 130.81 85.09) (xy 139.7 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "96977923-97f7-48cb-bb37-e0305831ec39")
+		(uuid "03f0d777-0d3e-49f9-9dd5-9daa3e47df13")
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 187.96 87.63)
+			(xy 149.86 74.93) (xy 130.81 74.93)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "97aa818c-66fd-4bbf-81c7-183ff7ebe168")
+		(uuid "19c92c9e-b70b-4270-91d2-32c55ed09af6")
 	)
 	(wire
 		(pts
-			(xy 259.08 82.55) (xy 255.27 82.55)
+			(xy 101.6 105.41) (xy 101.6 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "9b7f7b7a-ebc4-47ce-91af-8c13316b7127")
+		(uuid "2a49c71e-0c5c-4f71-9f09-d08b7aff8791")
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 160.02 90.17)
+			(xy 130.81 74.93) (xy 130.81 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "9c7d6ad8-ba7c-4584-a5db-c594458cebe1")
+		(uuid "2b7110b0-a322-401f-ace5-43e2e430233e")
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 96.52 77.47)
+			(xy 177.8 101.6) (xy 177.8 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "a0e917bc-b610-44fc-b5fa-6503dca7f168")
+		(uuid "2f0fd85b-a657-47a1-93a7-a2c5a66dad55")
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 187.96 80.01)
+			(xy 113.03 93.98) (xy 113.03 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "a2112d0e-90c2-4523-8830-b529a1958463")
+		(uuid "3bf0b24c-86a1-45c7-9f02-51d32f056001")
 	)
 	(wire
 		(pts
-			(xy 242.57 82.55) (xy 251.46 82.55)
+			(xy 177.8 93.98) (xy 177.8 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "a5658507-efa6-4706-96f2-f23bf84276e0")
+		(uuid "3d02fbfd-64c7-4080-bb45-6a726565f8cc")
 	)
 	(wire
 		(pts
-			(xy 96.52 118.11) (xy 109.22 118.11)
+			(xy 167.64 93.98) (xy 139.7 93.98)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "a5ad8f13-7fb7-4bb3-ae93-ae3719649870")
+		(uuid "430a1d3e-ced2-42f3-9b9a-14e5e6982db3")
 	)
 	(wire
 		(pts
-			(xy 81.28 100.33) (xy 81.28 118.11)
+			(xy 130.81 87.63) (xy 139.7 87.63)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "a9ff9689-b738-483e-a13c-c687f49942e6")
+		(uuid "47cd5c77-adf9-4481-9f6f-383ccb845c6f")
 	)
 	(wire
 		(pts
-			(xy 187.96 95.25) (xy 187.96 100.33)
+			(xy 101.6 109.22) (xy 87.63 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "b5bb90db-c867-4c3c-81ca-5314880bfc26")
+		(uuid "4a1ae2fc-2c2a-4d5e-89e7-d63dfda6a53a")
 	)
 	(wire
 		(pts
-			(xy 200.66 118.11) (xy 187.96 118.11)
+			(xy 88.9 85.09) (xy 96.52 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "b7835ec6-24ec-46d2-8776-5c6ec5b47729")
+		(uuid "684ec024-6834-4ac4-9b39-3e50248f0146")
 	)
 	(wire
 		(pts
-			(xy 81.28 77.47) (xy 67.31 77.47)
+			(xy 133.35 104.14) (xy 133.35 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "b912ec90-f932-480f-8d9a-7b7886cce5d4")
+		(uuid "7c6e6eef-8977-435b-ae4f-050145010730")
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 163.83 80.01)
+			(xy 113.03 78.74) (xy 110.49 78.74)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "bba6cdc2-c5b3-4c6c-ab00-0b070e6e60d3")
+		(uuid "7e6da9eb-9a8e-4d3c-b760-63eb9d9492a5")
 	)
 	(wire
 		(pts
-			(xy 200.66 118.11) (xy 226.06 118.11)
+			(xy 113.03 109.22) (xy 101.6 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "bbc94b99-8e36-454a-ba5f-4e2a4e9b810b")
+		(uuid "833d19f0-e4be-4640-8a97-672dd8defda7")
 	)
 	(wire
 		(pts
-			(xy 236.22 82.55) (xy 242.57 82.55)
+			(xy 157.48 74.93) (xy 177.8 74.93)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "c08a961e-b81e-4b21-9fb5-4ba20f13ae47")
+		(uuid "8d3394e9-f165-48fb-b96d-d8c8837dc226")
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 194.31 82.55)
+			(xy 87.63 109.22) (xy 87.63 110.49)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "c737a695-7256-4c3c-8f64-21bf4cccf23a")
+		(uuid "9ef0cece-17e1-4a02-b6e3-1a04a01e424b")
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 160.02 100.33)
+			(xy 101.6 85.09) (xy 101.6 87.63)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "c787bb66-51cb-48e1-a494-16a394e0018b")
+		(uuid "a2ad5b3f-12aa-4590-94a4-1fa5bfb4fd44")
 	)
 	(wire
 		(pts
-			(xy 251.46 82.55) (xy 251.46 95.25)
+			(xy 133.35 93.98) (xy 139.7 93.98)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "ca93510b-7fab-4ab8-a180-f62a82748b54")
+		(uuid "a507dbbd-fb91-48f5-987b-c462b77e1711")
 	)
 	(wire
 		(pts
-			(xy 58.42 118.11) (xy 81.28 118.11)
+			(xy 113.03 101.6) (xy 113.03 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "d1c52572-5637-4507-bf31-37163102c011")
+		(uuid "a929a38f-a03a-4797-8daa-684ec5b48ffd")
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 187.96 105.41)
+			(xy 133.35 96.52) (xy 133.35 93.98)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "d3d3e039-5c69-4e4c-a4c2-1859716d215d")
+		(uuid "ab9a0e79-6986-4680-ad3a-53f4beb6bca3")
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 81.28 77.47)
+			(xy 177.8 109.22) (xy 133.35 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "de939347-50de-40c6-a7af-b34737a6f0db")
+		(uuid "ad5869d7-fb1d-467a-b835-2c676a7dcf78")
 	)
 	(wire
 		(pts
-			(xy 109.22 118.11) (xy 157.48 118.11)
+			(xy 101.6 95.25) (xy 101.6 97.79)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "dff9e2d3-632e-4933-a21f-2641125059f6")
+		(uuid "b2a20bfa-9870-4bbd-9c93-99b8416c76dc")
 	)
 	(wire
 		(pts
-			(xy 109.22 118.11) (xy 109.22 109.22)
+			(xy 133.35 109.22) (xy 113.03 109.22)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "e856f760-d37b-4a61-b304-98c7f37b2296")
+		(uuid "b38ff0d7-4f44-4a8c-94b6-5be85718ef12")
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 157.48 92.71)
+			(xy 167.64 87.63) (xy 167.64 93.98)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "e8a88558-7573-436a-b826-0effdfd5d3a9")
+		(uuid "b930f168-8ad1-4a21-98e9-5ec64b76c8bb")
 	)
 	(wire
 		(pts
-			(xy 226.06 87.63) (xy 226.06 82.55)
+			(xy 177.8 74.93) (xy 177.8 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "eb0e4938-815e-49c1-8100-1fcd49a135e1")
+		(uuid "cced8387-f829-43ec-aa47-897feb88fb86")
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 171.45 80.01)
+			(xy 96.52 85.09) (xy 101.6 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "ebc75454-62bc-4bce-a763-ac26e18f28ca")
+		(uuid "d6fbbd2b-8adb-4710-9847-9c9a6c50a9c5")
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 187.96 100.33)
+			(xy 113.03 85.09) (xy 130.81 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "f28b9d47-ccc3-45cd-a1e3-b7940356f8e1")
+		(uuid "dcced5c4-b76e-4d3c-a990-1eeedc3d4a81")
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 160.02 82.55)
+			(xy 101.6 85.09) (xy 113.03 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "f6257dc6-ab32-4f03-8066-0994ef4f0230")
+		(uuid "e927e520-67d9-4f49-8c89-3b3592fc02d7")
 	)
 	(wire
 		(pts
-			(xy 81.28 77.47) (xy 96.52 77.47)
+			(xy 113.03 78.74) (xy 113.03 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "f6d08872-1e73-4d1a-8325-1d76d254aa60")
+		(uuid "e9e5fc67-dab3-43ea-9082-c68b2b927279")
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 149.86 87.63)
+			(xy 123.19 93.98) (xy 133.35 93.98)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "f7c6b2ba-ea5b-4906-b5d5-b8a9f5f472b6")
+		(uuid "ec0c1bea-c54b-4623-8e93-e2219d3c4769")
 	)
 	(wire
 		(pts
-			(xy 157.48 92.71) (xy 157.48 95.25)
+			(xy 139.7 93.98) (xy 139.7 90.17)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "faed3976-9574-4598-8e4f-050157065dda")
+		(uuid "f1676752-d773-4624-92cb-5c48cacde003")
 	)
 	(wire
 		(pts
-			(xy 81.28 118.11) (xy 96.52 118.11)
+			(xy 177.8 85.09) (xy 167.64 85.09)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
 		)
-		(uuid "fb170de8-5d3b-49e8-bfdc-97ce3bdb585e")
+		(uuid "f3ae0593-1a7c-47f8-b79f-d3b5e677c28c")
 	)
-	(wire
-		(pts
-			(xy 111.76 82.55) (xy 111.76 77.47)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
+	(text "The circuit below is for an adjustable version (ST730MR). \nIt is recommended to use a fixed voltage regulator (ST730M33R). \nIn order for the circuit to be suitable for a fixed regulator, remove R42 and R43.\nVout=1.2*(1+R42/R43)"
+		(exclude_from_sim no)
+		(at 132.08 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(uuid "fc3b1990-ab58-4fdb-b9b1-153cac77d6e1")
+		(uuid "d0ce62b2-de10-47af-8be9-556925015325")
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 207.01 82.55 90)
+		(lib_id "Regulator_Linear:ST730MR")
+		(at 139.7 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "01f3bccb-35e4-4dd3-b83e-4f6337c06e17")
-		(property "Reference" "L4"
-			(at 207.01 80.01 90)
+		(uuid "26d31fa7-a37b-405d-8fc1-8c4f1eed9a79")
+		(property "Reference" "IC5"
+			(at 153.416 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "330nH"
-			(at 210.312 82.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 207.01 82.55 0)
+		(property "Value" "ST730MR"
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,8 +1606,88 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 207.01 82.55 0)
+		(property "Footprint" "Regulators:SOT95P280X145-5N"
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/ST730MR.pdf"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators SOT 23 5L"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-ST730MR"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST730MR?qs=%252B6g0mu59x7Iit7hjrqUHvA%3D%3D"
+			(at 163.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ST730MR"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,8 +1695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BDCC00201208R33MWA"
-			(at 207.01 82.55 0)
+		(property "MANUFACTURER SERIES" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,257 +1704,8 @@
 				(hide yes)
 			)
 		)
-		(property "SHIELDING" "Shielded"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEST FREQUENCY" "2MHz"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-40°C"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DC RESISTANCE (DCR)" "24mR"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SELF RESONANT FREQUENCY" ""
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "One Surface"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CORE MATERIAL" "Ferrite"
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CURRENT RATING" ""
-			(at 205.74 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHANNELS" "1"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INDUCTANCE-NOM (L)" "0.33uH"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INDUCTOR APPLICATION" "RF INDUCTOR"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INDUCTOR TYPE" "GENERAL PURPOSE INDUCTOR"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX CURRENT RATING" "4A"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" ""
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC COMPLIANT" "Yes"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REFERENCE STANDARD" ""
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SHAPE/SIZE DESCRIPTION" "RECTANGULAR PACKAGE"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SURFACE MOUNT" "Yes"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINAL PLACEMENT" "Dual Ended"
-			(at 203.2 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "330nH"
-			(at 209.55 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 207.01 82.55 0)
+		(property "REACH SVHC" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,8 +1713,8 @@
 				(hide yes)
 			)
 		)
-		(property "COLOR" ""
-			(at 207.01 82.55 0)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,8 +1722,8 @@
 				(hide yes)
 			)
 		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 207.01 82.55 0)
+		(property "THICKNESS" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,8 +1731,8 @@
 				(hide yes)
 			)
 		)
-		(property "CONTACT RESISTANCE" ""
-			(at 207.01 82.55 0)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,53 +1740,8 @@
 				(hide yes)
 			)
 		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 207.01 82.55 0)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,3656 +1750,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e477c69-f328-40ca-8183-74b6fac32d77")
-		)
-		(pin "2"
-			(uuid "42cfc96c-a795-4bb7-8bd6-ce04ca83e167")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cda871e-b507-4504-8652-8bfeec28b25b")
-		(property "Reference" "#PWR0326"
-			(at 58.42 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "259aefb7-1f75-4ce6-b9ae-e2c13b99da5b")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "#PWR0326")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 171.45 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3069b2bb-8688-41a5-b9f8-f1ce114c32da")
-		(property "Reference" "#FLG011"
-			(at 171.45 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c855dca-3c4c-46f5-9054-28724c1a5cac")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "#FLG011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 96.52 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c871ce5-7189-4413-8dca-f422aa307a89")
-		(property "Reference" "C35"
-			(at 90.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 99.314 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "GCJ21BR71E225KA01L"
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 93.726 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "2.2uF"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 93.726 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITOR TYPE" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RIPPLE CURRENT (AC)" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RIPPLE CURRENT" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" ""
-			(at 91.44 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 96.52 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c848d04b-2369-44b2-84c7-c78fcca8c07a")
-		)
-		(pin "2"
-			(uuid "cae65839-52c6-4524-920f-b137bc20de59")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "VCC_2")
-		(lib_id "power:VCC")
-		(at 259.08 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43b84eaa-0666-477b-b7d2-11a7b839c1be")
-		(property "Reference" "#PWR049"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 259.08 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b9683a2-088d-420a-88ca-0c6af5df18f8")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 255.27 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4674bcaa-92be-4bbe-a08f-acb83389ee93")
-		(property "Reference" "#FLG01"
-			(at 255.27 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a58a466-de69-4f85-b29e-abd07e421e20")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 187.96 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a22ac96-6b88-4998-af40-8a5a7c2e631f")
-		(property "Reference" "R38"
-			(at 182.88 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1MR"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TNPW08051M00BEEN"
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "25ppm/°C"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "Wraparound"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "0.1%"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "0805"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 186.436 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "JESD-609 CODE" "e3"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER SERIES" "TNPW"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE SHAPE" "Rectangular"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER" "125mW"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RATED TEMPERATURE" "70°C"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC COMPLIANT" "Yes"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RESISTOR TYPE" "FIXED RESISTOR"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TECHNOLOGY" "THIN FILM"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINAL FINISH" "Tin"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1MR"
-			(at 189.23 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "WORKING VOLTAGE" "150V"
-			(at 182.88 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33b33ab7-d638-4f65-bc4e-831e0fbed9ff")
-		)
-		(pin "2"
-			(uuid "2f42e7c3-bfda-4b3d-af06-a5059f0ddcd6")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 251.46 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b67a454-2427-4b90-bbe2-e3e88819f507")
-		(property "Reference" "C38"
-			(at 245.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 254.254 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "GRM21BR61E226ME44L"
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "0805"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEPTH" "1.25mm"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RESISTOR TYPE" "Ceramic"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Lead Free"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING (DC)" "25V"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (METRIC)" "2012"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "THICKNESS" "0.057inch"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC" "No SVHC"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MATERIAL" "Ceramic"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENGTH" "2mm"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "22uF"
-			(at 254 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" "0805"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "SMD/SMT"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WEIGHT" "0.000335oz"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIELECTRIC" "X5R"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" "25V"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE QUANTITY" "3000"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.25mm"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WIDTH" "1.25mm"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 248.666 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "22 uF"
-			(at 251.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06a1fed4-1dd6-40c0-ab9e-253ebb906a43")
-		)
-		(pin "2"
-			(uuid "f63d9695-a32e-4264-8742-bd314fe87a84")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "507677d0-a33c-4651-8523-ff031a4ca5c5")
-		(property "Reference" "R39"
-			(at 104.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "226kR"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RT0805BRD07226KL"
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "25ppm/°C"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "0805"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "Wraparound"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "0.1%"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 107.696 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ADDITIONAL FEATURE" "HIGH PRECISION"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONSTRUCTION" "Chip"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE HEIGHT" "0.5mm"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE LENGTH" "2mm"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE STYLE" "SMTMeter"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE WIDTH" "1.25mm"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER" "125mW"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RATED TEMPERATURE" "70°C"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC COMPLIANT" "Yes"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RESISTOR TYPE" "FIXED RESISTOR"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TECHNOLOGY" "THIN FILM"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "226kR"
-			(at 110.49 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "WORKING VOLTAGE" "150V"
-			(at 104.14 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8b5fdc7-7b91-47da-9d6e-49319f8cf82b")
-		)
-		(pin "2"
-			(uuid "3765bab6-0a8e-41a2-887f-32141205412c")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 226.06 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a7317a5-2a06-4d5e-83c3-2f60062ecda5")
-		(property "Reference" "R41"
-			(at 220.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "300R"
-			(at 227.584 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESR10EZPJ301"
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "200ppm/°C"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX POWER DISSIPATION" "400mW"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "155°C"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (METRIC)" "2012"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT - SEATED (MAX)" "0.026inch"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE CODE (IMPERIAL)" "0805"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER RATING" "400mW"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "5%"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SIZE CODE" "0805"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SERIES" "ESR"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FEATURES" "Automotive AEC-Q200"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "0805"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENGTH" "0.079inch"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF TERMINATIONS" "2"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RESISTOR TYPE" "Thick Film"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WIDTH" "0.049inch"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Lead Free"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RESISTANCE" "300R"
-			(at 227.33 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGE QUANTITY" "1"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.026inch"
-			(at 224.536 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "300R"
-			(at 226.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c699b24-65b3-4428-89dd-fa4b0d7431ec")
-		)
-		(pin "2"
-			(uuid "5c3c6e35-565a-46d0-9188-6a336536fcf8")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 160.02 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a088f4c9-999b-4f23-8af6-00bb77465358")
-		(property "Reference" "C33"
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "22 pF"
-			(at 162.814 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C0805C220K3GACTU"
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE HIGH" "+125°C"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "22 pF"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE LOW" "-55°C"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" "Cap"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "C0805C220K3GACTU"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE COEFFICIENT" "30ppm/°C"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTOMOTIVE" "No"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Yes"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25 V"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE CHARACTERISTIC" "C0G"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "C0805C-DN"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MATERIAL" "Ceramic"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L2" "Capacitors"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "TRUE"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "0.1"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.88mm"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L3" "Ceramic Capacitors"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OCTOPART" "https://octopart.com/c0805c220k3gactu-kemet-12580612"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY DESCRIPTION" "CAP CER 22PF 25V 10% NP0 0805"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "22 pF"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "TEMPERATURE" "-55°C to +125°C"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L1" "Passive Components"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "KEMET"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "IPC LAND PATTERN NAME" "CAPC200125X78"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER DESCRIPTION" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25volts 22pF C0G 10%"
-			(at 157.226 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 160.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51503ff8-5250-47b2-a9b7-094f16d862bf")
-		)
-		(pin "2"
-			(uuid "81395eb6-7d2d-495b-b047-045bcfaa2b99")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Untitled-altium-import:root_0_LT-LT3970_B-MS-10")
-		(at 124.46 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb5a8bfe-d433-4016-8685-5fd0a7262332")
-		(property "Reference" "U3"
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LT3970EMS#TRPBF"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Vault:LT-MS-10_N"
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGEREFERENCE" "MS-10"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "FREQUENCY ADJUST RANGE" "200kHz - 2.2MHz"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "10-Pin Plastic MSOP, Body 3 x 3 mm, Pitch 0.5 mm"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://www.linear.com/"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKING" "Tape and Reel"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEETVERSION" "Rev. B"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK3URL" "http://cds.linear.com/docs/en/packaging/05081661_F_MS.pdf"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "TRUE"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF OUTPUTS" "1"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK3DESCRIPTION" "Package Specification"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Linear Technology"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Manufacturer URL"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK2URL" "http://cds.linear.com/docs/en/datasheet/3970fb.pdf"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGEVERSION" "Rev. E, 06/2010"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTNUMBER" "LT3970EMS#TRPBF"
-			(at 118.872 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e08ba2ad-7a52-4e7f-bb83-7cf975e8da9d")
-		)
-		(pin "10"
-			(uuid "c871610b-ebf1-46e1-9f24-06af58058973")
-		)
-		(pin "2"
-			(uuid "f48425e3-a981-4cd3-9e45-19e2685b44c7")
-		)
-		(pin "3"
-			(uuid "a841ba4c-49be-4924-b00f-1a3968c5ab88")
-		)
-		(pin "4"
-			(uuid "60827db8-794f-4f3d-870a-ace1a3fcf44e")
+			(uuid "67488314-a0c3-4eb4-a4ca-38d06e900ffc")
 		)
 		(pin "5"
-			(uuid "1aa96480-c97c-48a1-a370-841b94db79cc")
+			(uuid "79387a69-7217-4274-a258-c8842f6641a8")
 		)
-		(pin "6"
-			(uuid "5b7f895d-1f4e-4e94-ab6d-3a9c3f2fd577")
-		)
-		(pin "7"
-			(uuid "ff0dfddf-cb0a-4f71-9638-0395158468a4")
-		)
-		(pin "8"
-			(uuid "860b7b9a-5181-450f-83d5-1f3719e96a13")
-		)
-		(pin "9"
-			(uuid "a4c781d4-dc95-4fc8-b9c4-10ebf8619069")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 181.61 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0ed4292-2794-4e0a-8e9e-35185e41c06c")
-		(property "Reference" "L3"
-			(at 181.61 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "22uH"
-			(at 184.912 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLZ2012N220LT000"
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEST FREQUENCY" "2MHz"
-			(at 176.53 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DC RESISTANCE (DCR)" "0.67R"
-			(at 176.53 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SELF RESONANT FREQUENCY" "20MHz"
-			(at 176.53 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 176.53 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 176.53 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 176.53 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CHANNELS" "1"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CORE MATERIAL" "Ferrite"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CURRENT RATING" ""
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INDUCTANCE-NOM (L)" "22uH"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INDUCTOR APPLICATION" "RF INDUCTOR"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INDUCTOR TYPE" "GENERAL PURPOSE INDUCTOR"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX CURRENT RATING" "300mA"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" ""
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC COMPLIANT" "Yes"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SHAPE/SIZE DESCRIPTION" "RECTANGULAR PACKAGE"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SHIELDING" "Shielded"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SURFACE MOUNT" "Yes"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINAL PLACEMENT" "Dual Ended"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "One Surface"
-			(at 176.276 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "22uH"
-			(at 184.15 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cadb275-a50c-4155-a81b-518f03323779")
+		(pin "3"
+			(uuid "e75e9203-9874-4706-b033-603d28caebef")
 		)
 		(pin "2"
-			(uuid "75b77602-aaa8-4c50-b8e8-4b6b5a23c48e")
+			(uuid "b73d0d15-a617-4367-b9b7-9bbc9a8e39c4")
+		)
+		(pin "4"
+			(uuid "3ab5c8ae-0e13-4245-8c68-3a5d62f09e05")
 		)
 		(instances
 			(project "Nodes"
 				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 67.31 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce6b1e38-1d5e-4ff6-a5de-ddd475af5f2b")
-		(property "Reference" "#PWR047"
-			(at 67.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 67.31 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 67.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65ab8f55-b967-4b99-a654-d966d1e320f3")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 194.31 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d16eae4c-89aa-4800-9f3c-48c2441cf3a9")
-		(property "Reference" "#FLG09"
-			(at 194.31 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 194.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 194.31 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fd827cd-335e-465a-8dac-05c5c8dd44e3")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 187.96 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d60ea440-dfd0-4de5-ab41-670f5576329c")
-		(property "Reference" "R40"
-			(at 182.88 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "576kR"
-			(at 189.738 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ERJ-6ENF5763V"
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 189.738 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" "ERJ-6ENF5763V"
-			(at 189.738 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "576kR"
-			(at 189.23 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 187.96 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "043a2524-a957-4884-ba3f-d49492d9398f")
-		)
-		(pin "2"
-			(uuid "b4a82463-fd1b-4f63-bf3e-241d9bdce598")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "R40")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -6231,15 +1775,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 76.2 0)
+		(at 133.35 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dca51ec0-f246-4395-afb1-2259529623c4")
-		(property "Reference" "C32"
-			(at 157.48 74.93 0)
+		(uuid "37036074-ecd7-442b-8593-837e80a3b269")
+		(property "Reference" "C29"
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,8 +1791,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "220nF"
-			(at 166.624 82.042 0)
+		(property "Value" "100nF"
+			(at 136.144 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +1802,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,8 +1819,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AC0805KRX7R8BB224"
-			(at 163.83 76.2 0)
+		(property "Description" "08055C104KAT4A"
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +1829,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" ""
-			(at 161.036 75.692 0)
+			(at 130.556 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,8 +1838,8 @@
 				(hide yes)
 			)
 		)
-		(property "MIN OPERATING TEMPERATURE" ""
-			(at 161.036 75.692 0)
+		(property "HEIGHT" "0.94mm"
+			(at 130.556 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,28 +1848,17 @@
 				(hide yes)
 			)
 		)
-		(property "MAX OPERATING TEMPERATURE" ""
-			(at 161.036 75.692 0)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 161.036 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 161.036 75.692 0)
+			(at 130.556 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +1868,17 @@
 			)
 		)
 		(property "CAPACITOR TYPE" "Ceramic"
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" "0805"
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +1888,7 @@
 			)
 		)
 		(property "DIELECTRIC MATERIAL" "Ceramic"
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +1898,7 @@
 			)
 		)
 		(property "JESD-609 CODE" "e3"
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,8 +1907,78 @@
 				(hide yes)
 			)
 		)
-		(property "MOUNTING TECHNOLOGY" ""
-			(at 158.75 75.692 0)
+		(property "LENGTH" "2.01mm"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "125°C"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-55°C"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" "Surface Mount"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MULTILAYER" "Yes"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE SHAPE" "Rectangular"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE STYLE" "SMTMeter"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +1988,17 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATED DC VOLTAGE (URDC)" "50V"
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +2008,7 @@
 			)
 		)
 		(property "REACH SVHC COMPLIANT" "Yes"
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +2018,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT (AC)" ""
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +2028,7 @@
 			)
 		)
 		(property "RIPPLE CURRENT" ""
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +2038,17 @@
 			)
 		)
 		(property "ROHS COMPLIANT" "Yes"
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +2058,7 @@
 			)
 		)
 		(property "TERMINAL FINISH" "Nickel"
-			(at 158.75 75.692 0)
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,17 +2067,48 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "220nF"
-			(at 166.37 76.2 0)
+		(property "TERMINATION" "Wraparound"
+			(at 128.27 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE  (FILL IN AS +-)" "10%"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE (FILL IN AS +-)" "10%"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WIDTH" "1.25mm"
+			(at 128.27 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "BODY MATERIAL" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +2117,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +2126,7 @@
 			)
 		)
 		(property "CONTACT CURRENT RATING" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +2135,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +2144,7 @@
 			)
 		)
 		(property "ELECTROMECHANICAL LIFE" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +2153,7 @@
 			)
 		)
 		(property "OPERATING FORCE" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6498,7 +2162,7 @@
 			)
 		)
 		(property "PLATING" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +2171,7 @@
 			)
 		)
 		(property "STANDOFF HEIGHT" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +2180,7 @@
 			)
 		)
 		(property "THROW CONFIGURATION" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +2189,115 @@
 			)
 		)
 		(property "VOLTAGE RATING DC" ""
-			(at 163.83 76.2 0)
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,15 +2306,1120 @@
 			)
 		)
 		(pin "1"
-			(uuid "72000f72-5e00-45ee-9666-7236f000216f")
+			(uuid "21cd4b7c-455d-48fd-9586-a4a34ebcfad2")
 		)
 		(pin "2"
-			(uuid "375f193c-2fac-4777-b26d-c63c25960419")
+			(uuid "b33a263d-7ae5-48c6-8d98-8d86f5e85f80")
 		)
 		(instances
 			(project "Nodes"
 				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "C32")
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef9539c-6431-4dc2-8ccc-96d19bd71bea")
+		(property "Reference" "#PWR050"
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15bd6120-560e-4cf1-8db2-169d469069dc")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43f97d50-e003-4691-83e2-383ebc8b294a")
+		(property "Reference" "#PWR043"
+			(at 87.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e41e2cec-ac75-45ca-a125-3089a01f078b")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7092ac7f-c30b-4efb-a262-6b993316ffd2")
+		(property "Reference" "R43"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.24kR"
+			(at 179.578 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ERJ-PB6B3241V"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89118366-04f4-40b8-b677-945428b175eb")
+		)
+		(pin "2"
+			(uuid "1669933f-93e6-4f67-b9f1-9f90b88c1b25")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 101.6 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f6d5469-7ab5-452d-b93f-5454767e3701")
+		(property "Reference" "LED13"
+			(at 100.33 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SML-210YTT86M"
+			(at 93.726 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow LED"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/SML-210YTT86M.pdf"
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "ROHM Semiconductor"
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "SML-210YTT86M"
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" ""
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" ""
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 85.852 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COLOUR" "Yellow"
+			(at 104.648 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BODY MATERIAL" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COLOR" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTACT CURRENT RATING" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTACT RESISTANCE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ELECTROMECHANICAL LIFE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FORCE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLATING" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDOFF HEIGHT" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THROW CONFIGURATION" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING DC" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "262d913d-2914-4ada-92e0-157267e8da25")
+		)
+		(pin "2"
+			(uuid "22db3be4-43d5-4e04-bebd-a92f0b6fa6ec")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c511d44-1a5e-418e-9773-0bd1a93f7310")
+		(property "Reference" "C30"
+			(at 106.68 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470nF"
+			(at 116.078 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 113.9952 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fi/datasheet/2/585/MLCC-1837944.pdf"
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CL21B474KBFNNNG"
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d317b2fc-2a43-4135-abcd-00d582a40028")
+		)
+		(pin "1"
+			(uuid "53747af4-9e7e-4e44-bc17-269ae9487f96")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9857210b-374f-4e6b-aa52-a999cac17fe2")
+		(property "Reference" "#PWR048"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5643be4e-5839-44d0-8e1e-cd18e45df99e")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VCC_2")
+		(lib_id "power:VCC")
+		(at 88.9 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6bdd5b4-7dbc-4ba4-9b6b-4b9dc5f06791")
+		(property "Reference" "#PWR070"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 88.9 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70836438-ba12-4066-a738-968c6d00361d")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c30edeb1-fb29-4fef-9380-c6799d75c066")
+		(property "Reference" "R42"
+			(at 155.702 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.62kR"
+			(at 156.972 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 153.67 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fi/datasheet/2/54/cr-1858361.pdf"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CR0805-FX-5621ELF"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08ac902b-cfa8-4ed9-8603-eec31a7e5659")
+		)
+		(pin "1"
+			(uuid "c437fc0b-aead-43bd-97e9-ddf21cfcf177")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -6550,15 +3427,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 255.27 69.85 0)
+		(at 105.41 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "df138177-c000-415c-a8d1-65c05f0383aa")
+		(uuid "cacd4f86-a099-41f3-a68c-0a7f580537ed")
 		(property "Reference" "T5"
-			(at 254 67.818 0)
+			(at 106.172 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +3444,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 254.762 64.77 0)
+			(at 105.918 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +3454,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +3463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +3472,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,7 +3481,7 @@
 			)
 		)
 		(property "BODY MATERIAL" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +3490,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +3499,7 @@
 			)
 		)
 		(property "CONTACT CURRENT RATING" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +3508,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,7 +3517,7 @@
 			)
 		)
 		(property "ELECTROMECHANICAL LIFE" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +3526,7 @@
 			)
 		)
 		(property "OPERATING FORCE" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +3535,7 @@
 			)
 		)
 		(property "PLATING" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +3544,7 @@
 			)
 		)
 		(property "STANDOFF HEIGHT" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +3553,7 @@
 			)
 		)
 		(property "THROW CONFIGURATION" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +3562,115 @@
 			)
 		)
 		(property "VOLTAGE RATING DC" ""
-			(at 255.27 69.85 0)
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +3679,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "de2ece10-ebb7-4464-acbb-fa36089dc005")
+			(uuid "c63f5509-a7bf-4b90-95e4-5a07c6f669e5")
 		)
 		(instances
 			(project "Nodes"
@@ -6706,16 +3691,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 96.52 0)
+		(lib_id "Device:R")
+		(at 101.6 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2c8b50c-7880-4c2e-9070-a8f43d1ecf78")
-		(property "Reference" "C34"
-			(at 74.93 95.25 0)
+		(uuid "cb08d58a-5f49-4bbb-b991-26c3a8d402a4")
+		(property "Reference" "R41"
+			(at 96.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,8 +3708,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7µF"
-			(at 84.074 102.362 0)
+		(property "Value" "300R"
+			(at 103.124 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,8 +3718,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 81.28 96.52 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 96.52 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,8 +3736,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM21BZ71H475KE15L"
-			(at 81.28 96.52 0)
+		(property "Description" "ESR10EZPJ301"
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,17 +3745,8 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "4.7µF"
-			(at 83.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "CAPACITOR TYPE" "Ceramic"
-			(at 76.2 96.012 0)
+		(property "TEMPERATURE COEFFICIENT" "200ppm/°C"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,8 +3755,8 @@
 				(hide yes)
 			)
 		)
-		(property "CASE/PACKAGE" "0805"
-			(at 76.2 96.012 0)
+		(property "MAX POWER DISSIPATION" "400mW"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,428 +3765,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIELECTRIC MATERIAL" "Ceramic"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "JESD-609 CODE" "e3"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" "Surface Mount"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MULTILAYER" "Yes"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE SHAPE" "Rectangular"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" "2"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RATED DC VOLTAGE (URDC)" "50V"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REACH SVHC COMPLIANT" "Yes"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RIPPLE CURRENT (AC)" ""
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RIPPLE CURRENT" ""
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" "Yes"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE CHARACTERISTICS CODE" "X7R"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINAL FINISH" "Nickel"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TERMINATION" "Wraparound"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE  (FILL IN AS +-)" "10%"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE (FILL IN AS +-)" "10%"
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 76.2 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 81.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e76271b9-73cf-4e20-ac1d-275a92ec7a19")
-		)
-		(pin "2"
-			(uuid "781ae974-cc71-4e4b-89b4-7d88b81add1c")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 200.66 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec600974-e025-421a-b31e-edc76ec224b8")
-		(property "Reference" "C36"
-			(at 194.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 203.454 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 200.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "GRM21BR61E226ME44L"
-			(at 200.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" "0805"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEPTH" "1.25mm"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RESISTOR TYPE" "Ceramic"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" "Lead Free"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING (DC)" "25V"
-			(at 197.866 98.552 0)
+		(property "MAX OPERATING TEMPERATURE" "155°C"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +3776,7 @@
 			)
 		)
 		(property "CASE CODE (METRIC)" "2012"
-			(at 197.866 98.552 0)
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7229,67 +3785,18 @@
 				(hide yes)
 			)
 		)
-		(property "THICKNESS" "0.057inch"
-			(at 197.866 98.552 0)
+		(property "HEIGHT - SEATED (MAX)" "0.026inch"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "REACH SVHC" "No SVHC"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MATERIAL" "Ceramic"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" "20%"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LENGTH" "2mm"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITANCE" "22uF"
-			(at 203.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "CASE CODE (IMPERIAL)" "0805"
-			(at 197.866 98.552 0)
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,8 +3805,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAX OPERATING TEMPERATURE" "85°C"
-			(at 197.866 98.552 0)
+		(property "POWER RATING" "400mW"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,8 +3815,8 @@
 				(hide yes)
 			)
 		)
-		(property "TERMINATION" "SMD/SMT"
-			(at 197.866 98.552 0)
+		(property "TOLERANCE" "5%"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,8 +3825,8 @@
 				(hide yes)
 			)
 		)
-		(property "WEIGHT" "0.000335oz"
-			(at 197.866 98.552 0)
+		(property "SIZE CODE" "0805"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,8 +3835,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIELECTRIC" "X5R"
-			(at 197.866 98.552 0)
+		(property "SERIES" "ESR"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,8 +3845,8 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 197.866 98.552 0)
+		(property "ROHS COMPLIANT" "Yes"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,48 +3855,8 @@
 				(hide yes)
 			)
 		)
-		(property "VOLTAGE" "25V"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE QUANTITY" "3000"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.25mm"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 197.866 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "WIDTH" "1.25mm"
-			(at 197.866 98.552 0)
+		(property "FEATURES" "Automotive AEC-Q200"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +3866,106 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-55°C"
-			(at 197.866 98.552 0)
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" "0805"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LENGTH" "0.079inch"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF TERMINATIONS" "2"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTOR TYPE" "Thick Film"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WIDTH" "0.049inch"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" "Lead Free"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "300R"
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PACKAGE QUANTITY" "1"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.026inch"
+			(at 100.076 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +3975,7 @@
 			)
 		)
 		(property "BODY MATERIAL" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +3984,7 @@
 			)
 		)
 		(property "COLOR" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +3993,7 @@
 			)
 		)
 		(property "CONTACT CURRENT RATING" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +4002,7 @@
 			)
 		)
 		(property "CONTACT RESISTANCE" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +4011,7 @@
 			)
 		)
 		(property "ELECTROMECHANICAL LIFE" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +4020,7 @@
 			)
 		)
 		(property "OPERATING FORCE" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +4029,7 @@
 			)
 		)
 		(property "PLATING" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,7 +4038,7 @@
 			)
 		)
 		(property "STANDOFF HEIGHT" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +4047,7 @@
 			)
 		)
 		(property "THROW CONFIGURATION" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +4056,7 @@
 			)
 		)
 		(property "VOLTAGE RATING DC" ""
-			(at 200.66 99.06 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,8 +4064,116 @@
 				(hide yes)
 			)
 		)
-		(property "ALTIUM_VALUE" "22 uF"
-			(at 200.66 99.06 0)
+		(property "ALTIUM_VALUE" "300R"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,50 +4182,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "315842c8-92bf-4184-b166-ad763bbb3fa3")
+			(uuid "b3dc777c-0c5f-4c63-b0d4-ae4245ff153d")
 		)
 		(pin "2"
-			(uuid "eadb8d1b-b9b2-41b0-befd-ad47ac9bb638")
+			(uuid "82e376ba-894c-475e-b8cf-b3b0b6e24ffc")
 		)
 		(instances
 			(project "Nodes"
 				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "C36")
+					(reference "R41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 236.22 99.06 0)
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "edd7128d-07a4-4a3e-80ff-f9e055f4b905")
-		(property "Reference" "C37"
-			(at 229.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 239.014 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 236.22 99.06 0)
+		(fields_autoplaced yes)
+		(uuid "e90ced98-3f1c-4b6e-bc4d-11e5a6ee5a5e")
+		(property "Reference" "#FLG04"
+			(at 96.52 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,8 +4215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 236.22 99.06 0)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,8 +4224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GCJ21BR71E225KA01L"
-			(at 236.22 99.06 0)
+		(property "Footprint" ""
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,127 +4233,8 @@
 				(hide yes)
 			)
 		)
-		(property "VOLTAGE RATING" ""
-			(at 233.426 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "2.2uF"
-			(at 238.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 233.426 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAPACITOR TYPE" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CASE/PACKAGE" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAX OPERATING TEMPERATURE" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MIN OPERATING TEMPERATURE" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PINS" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RIPPLE CURRENT (AC)" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "RIPPLE CURRENT" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS COMPLIANT" ""
-			(at 231.14 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 236.22 99.06 0)
+		(property "Datasheet" "~"
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,80 +4242,8 @@
 				(hide yes)
 			)
 		)
-		(property "COLOR" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 236.22 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 236.22 99.06 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,265 +4252,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3a2b7ac-1007-460b-8b0e-e1566897c155")
-		)
-		(pin "2"
-			(uuid "3ad45adc-51e7-4e1f-b091-04d501102094")
+			(uuid "b3cf4750-2a18-4d1d-bc43-bd10d53c6f9c")
 		)
 		(instances
 			(project "Nodes"
 				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 226.06 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbd8e583-4b74-480b-998a-fefc1960101c")
-		(property "Reference" "LED13"
-			(at 224.79 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SML-210YTT86M"
-			(at 218.186 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yellow LED"
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/SML-210YTT86M.pdf"
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "ROHM Semiconductor"
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SML-210YTT86M"
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" ""
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" ""
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 210.312 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COLOUR" "Yellow"
-			(at 229.108 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "BODY MATERIAL" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COLOR" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT CURRENT RATING" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT RESISTANCE" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ELECTROMECHANICAL LIFE" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OPERATING FORCE" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PLATING" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THROW CONFIGURATION" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING DC" ""
-			(at 226.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1fa7b55-b22b-4753-8bd8-e93cd5290142")
-		)
-		(pin "2"
-			(uuid "2325a1f2-1266-40e3-b558-8db0278e4f9c")
-		)
-		(instances
-			(project "Nodes"
-				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/ab2b7e8a-7520-41d5-9a07-fe429a4e590e/5ff23972-a393-4b9d-9ceb-aec6c048495f"
-					(reference "LED13")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
