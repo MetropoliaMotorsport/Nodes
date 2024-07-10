@@ -2161,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 116.84 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce100ca-b692-404c-83d6-14da511061b7")
-	)
-	(wire
-		(pts
 			(xy 219.71 87.63) (xy 213.36 87.63)
 		)
 		(stroke
@@ -2198,16 +2188,6 @@
 			(type default)
 		)
 		(uuid "ad4ebfe2-e73d-4590-bbbf-8d3ac1441d48")
-	)
-	(wire
-		(pts
-			(xy 104.14 60.96) (xy 116.84 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbdc0af-c305-419c-8065-827fd34501c8")
 	)
 	(wire
 		(pts
@@ -2473,17 +2453,6 @@
 		)
 		(uuid "272c42ae-0703-4088-9926-230e65701252")
 	)
-	(label "PWM1"
-		(at 106.68 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b106ef6-af88-411c-9828-c329565a740a")
-	)
 	(label "I2C1_SDA"
 		(at 232.41 45.72 0)
 		(fields_autoplaced yes)
@@ -2572,17 +2541,6 @@
 		)
 		(uuid "6c71cf4b-159a-428c-91f2-e74060255bdf")
 	)
-	(label "PWM1"
-		(at 109.22 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e8fb152-b3b0-4f42-a202-9f9dc9f5b1a9")
-	)
 	(label "I2C3_SDA"
 		(at 232.41 60.96 0)
 		(fields_autoplaced yes)
@@ -2593,17 +2551,6 @@
 			(justify left bottom)
 		)
 		(uuid "796003fd-c1b2-4b58-97a7-ee7657d9d924")
-	)
-	(label "PWM2"
-		(at 106.68 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b3b2607-2a84-4f78-9164-a28627854081")
 	)
 	(label "SWCLK_An"
 		(at 180.34 45.72 0)
@@ -2692,17 +2639,6 @@
 			(justify left bottom)
 		)
 		(uuid "d92016a9-307c-450e-a5b6-6d719f137495")
-	)
-	(label "PWM2"
-		(at 109.22 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5cfe88c-c7ef-42a8-bede-312e531e24e0")
 	)
 	(global_label "PWR3"
 		(shape output)
@@ -3210,6 +3146,28 @@
 			)
 		)
 	)
+	(global_label "PWM1"
+		(shape output)
+		(at 107.95 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90683b61-25ba-4ca4-9bf8-5c04a15f5d34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5825 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT0_2"
 		(shape output)
 		(at 46.99 124.46 180)
@@ -3333,6 +3291,28 @@
 		(uuid "cebca093-cfc3-45c0-a14a-028c83378336")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.0191 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM2"
+		(shape output)
+		(at 107.95 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d56a181f-b83b-4e47-a7d8-233d756b4664")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5825 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,26 +7299,6 @@
 				(justify left)
 			)
 			(uuid "8a17c88c-ff1f-4d5d-b749-f63b5c4bae32")
-		)
-		(pin "PWM1" output
-			(at 104.14 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "45bb6fb8-193f-452b-9003-2f4e8970d150")
-		)
-		(pin "PWM2" output
-			(at 104.14 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "20c7e020-2d0e-444f-93be-64344cd4df8b")
 		)
 		(instances
 			(project "Nodes"

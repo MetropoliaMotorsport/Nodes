@@ -2605,6 +2605,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4ff8da-e619-48d9-b7be-75f41a69e35d")
+	)
+	(wire
+		(pts
 			(xy 71.12 119.38) (xy 71.12 123.19)
 		)
 		(stroke
@@ -2672,6 +2682,16 @@
 			(type default)
 		)
 		(uuid "2e2adb98-082a-4e8b-a5e0-40221b5781c0")
+	)
+	(wire
+		(pts
+			(xy 165.1 156.21) (xy 173.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320c3280-1a47-496c-947c-f17a87758d9f")
 	)
 	(wire
 		(pts
@@ -2855,16 +2875,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 135.89 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82785afe-08ae-4fda-8b67-5318c85a0e69")
-	)
-	(wire
-		(pts
 			(xy 73.66 80.01) (xy 68.58 80.01)
 		)
 		(stroke
@@ -2985,7 +2995,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 110.49) (xy 147.32 110.49)
+			(xy 135.89 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3055,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 133.35 100.33)
+			(xy 147.32 100.33) (xy 135.89 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3517,6 +3527,17 @@
 		)
 		(uuid "e7fcf9b7-2944-4d7b-890e-d2da4b91dfcf")
 	)
+	(label "PWM1"
+		(at 166.37 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eec58303-a9a5-40f9-9cba-e5ffd4a8e1a2")
+	)
 	(label "CANRx"
 		(at 137.16 120.65 0)
 		(fields_autoplaced yes)
@@ -3527,6 +3548,17 @@
 			(justify left bottom)
 		)
 		(uuid "efd66001-cd0d-4232-b771-ad798971efca")
+	)
+	(label "PWM1"
+		(at 137.16 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0184815-efc0-4c7b-a926-2ff02b1ad169")
 	)
 	(label "IN0_2"
 		(at 137.16 102.87 0)
@@ -3563,7 +3595,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 137.16 110.49 180)
+		(at 135.89 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3573,7 +3605,7 @@
 		)
 		(uuid "132cf573-77c0-4fb2-9aa2-071da5877160")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.6953 110.49 0)
+			(at 130.4253 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3617,7 @@
 	)
 	(global_label "ADC"
 		(shape output)
-		(at 133.35 100.33 180)
+		(at 135.89 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3595,7 +3627,7 @@
 		)
 		(uuid "c932bbc8-a601-489f-a653-ac122c892ac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.7362 100.33 0)
+			(at 129.2762 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,8 +3637,8 @@
 			)
 		)
 	)
-	(hierarchical_label "PWM2"
-		(shape output)
+	(global_label "PWM2"
+		(shape input)
 		(at 135.89 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3615,7 +3647,17 @@
 			)
 			(justify right)
 		)
-		(uuid "915ca130-d3ed-4001-b5a0-056ed6840387")
+		(uuid "e03c8232-3d6b-44ba-ad11-edce8bda5eaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.5225 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "SWDIO"
 		(shape passive)
@@ -3628,18 +3670,6 @@
 			(justify right)
 		)
 		(uuid "a7f751ca-8aeb-4730-8c52-e17248c8949e")
-	)
-	(hierarchical_label "PWM1"
-		(shape output)
-		(at 135.89 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d01c2527-5551-4ea6-8eca-14bb8c14ac37")
 	)
 	(hierarchical_label "SWCLK"
 		(shape passive)
@@ -11068,6 +11098,55 @@
 			(project "Nodes"
 				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/0c7bf7f0-7f1e-40ac-a6a8-46292d6f8ac7"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 153.67)
+		(size 26.67 5.08)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "6315e0aa-8f7c-4b03-9e1e-36418e09c46a")
+		(property "Sheetname" "PWM Level Shifter 24V"
+			(at 173.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWM_24V.kicad_sch"
+			(at 173.99 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "PWM" output
+			(at 173.99 156.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4bde68d-afd1-4ab8-8f1b-107e44685135")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/0c7bf7f0-7f1e-40ac-a6a8-46292d6f8ac7"
+					(page "15")
 				)
 			)
 		)
