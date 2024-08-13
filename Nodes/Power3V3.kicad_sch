@@ -2460,7 +2460,7 @@
 		(dnp no)
 		(uuid "7092ac7f-c30b-4efb-a262-6b993316ffd2")
 		(property "Reference" "R43"
-			(at 172.72 96.52 0)
+			(at 172.212 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2468,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "3.24kR"
+		(property "Value" "576kR"
 			(at 179.578 99.314 0)
 			(effects
 				(font
@@ -2495,7 +2495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERJ-PB6B3241V"
+		(property "Description" "ERJ-6ENF5763V"
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -3311,8 +3311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.62kR"
-			(at 156.972 77.216 90)
+		(property "Value" "1MR"
+			(at 155.702 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fi/datasheet/2/54/cr-1858361.pdf"
+		(property "Datasheet" ""
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -3338,7 +3338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CR0805-FX-5621ELF"
+		(property "Description" "TNPW08051M00BEEN"
 			(at 153.67 74.93 0)
 			(effects
 				(font

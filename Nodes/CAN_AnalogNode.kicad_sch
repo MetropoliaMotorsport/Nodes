@@ -1357,6 +1357,12 @@
 		(uuid "5e26d7ce-f1aa-48a0-a4dd-31f442a05242")
 	)
 	(junction
+		(at 209.55 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d05af07-3667-4228-ac83-5cea87a65aec")
+	)
+	(junction
 		(at 63.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1380,19 +1386,13 @@
 		(color 0 0 0 0)
 		(uuid "e91af657-9eca-4d1c-901a-45b1d334ab4e")
 	)
-	(junction
-		(at 209.55 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f27dced1-c326-4363-89b7-eed69cd84cbb")
-	)
-	(no_connect
-		(at 200.66 90.17)
-		(uuid "1bff2e1e-bddd-4f44-bd60-231de33df926")
-	)
 	(no_connect
 		(at 200.66 80.01)
 		(uuid "64f12ca9-35df-4c2e-951e-fd73838de933")
+	)
+	(no_connect
+		(at 200.66 95.25)
+		(uuid "94e0b3ef-b043-4fc7-a9fc-abdef1de0d85")
 	)
 	(wire
 		(pts
@@ -1433,16 +1433,6 @@
 			(type default)
 		)
 		(uuid "0914f5e1-b6de-40fd-a9dd-fa01e3b9772b")
-	)
-	(wire
-		(pts
-			(xy 200.66 95.25) (xy 209.55 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab010c5-02d7-4f61-88d6-4b2772c81e97")
 	)
 	(wire
 		(pts
@@ -1546,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 85.09) (xy 209.55 95.25)
+			(xy 209.55 85.09) (xy 209.55 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1696,6 +1686,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 90.17) (xy 209.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba03545-5111-4db7-ab06-a63e548c37a5")
+	)
+	(wire
+		(pts
 			(xy 163.83 92.71) (xy 163.83 96.52)
 		)
 		(stroke
@@ -1786,6 +1786,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 90.17) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e818316c-1202-46e9-9334-1596257b0dd9")
+	)
+	(wire
+		(pts
 			(xy 175.26 82.55) (xy 190.5 82.55)
 		)
 		(stroke
@@ -1823,16 +1833,6 @@
 			(type default)
 		)
 		(uuid "f6a604e8-18e1-4df4-829c-db3b95c2a74d")
-	)
-	(wire
-		(pts
-			(xy 209.55 95.25) (xy 209.55 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f86214c6-e2ee-4450-8351-caa18fca3bd4")
 	)
 	(wire
 		(pts
@@ -3925,7 +3925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77d0fd95-575d-4f73-9678-3898a794d0ce")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 195.58 77.216 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 		(instances
 			(project "Nodes"
 				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/7d82bd19-4de3-497f-a840-7872f07b0c7c/77be9626-821e-42de-9f62-115b4450057f"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)

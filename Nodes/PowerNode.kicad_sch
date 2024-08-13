@@ -2516,10 +2516,6 @@
 		(uuid "fcc82f8a-7ec4-4526-9781-8bbe1242d7b6")
 	)
 	(no_connect
-		(at 203.2 95.25)
-		(uuid "296752fa-7cde-400e-aedc-ac4e9dd5af4d")
-	)
-	(no_connect
 		(at 203.2 74.93)
 		(uuid "87e0bebe-e016-496e-a440-fe392c46dce5")
 	)
@@ -2662,6 +2658,16 @@
 			(type default)
 		)
 		(uuid "24aaff16-680a-478f-aa9e-49eca20bbac3")
+	)
+	(wire
+		(pts
+			(xy 208.28 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2957648a-c665-47bd-8a4e-c995ccd2c183")
 	)
 	(wire
 		(pts
@@ -2915,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 96.52) (xy 208.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d750b1-e8fe-44df-8444-82d8131b2c99")
+	)
+	(wire
+		(pts
 			(xy 248.92 80.01) (xy 257.81 80.01)
 		)
 		(stroke
@@ -2972,16 +2988,6 @@
 			(type default)
 		)
 		(uuid "a775c72e-2e6f-4404-a9ec-eba9e16e1a44")
-	)
-	(wire
-		(pts
-			(xy 147.32 105.41) (xy 135.89 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9cb3fe3-aae6-4f2e-ab5a-e4359c41907c")
 	)
 	(wire
 		(pts
@@ -3045,6 +3051,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91538c8-40f0-490d-97d8-eeb97c1fe4d4")
+	)
+	(wire
+		(pts
 			(xy 203.2 128.27) (xy 210.82 128.27)
 		)
 		(stroke
@@ -3062,6 +3078,16 @@
 			(type default)
 		)
 		(uuid "baa44d7c-adf3-49c4-b99d-427773039dc7")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee4288a-62ef-4f67-a73a-1b0196db84e7")
 	)
 	(wire
 		(pts
@@ -3235,6 +3261,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 158.75) (xy 173.99 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c08f7f-9083-4745-94ef-209958085c86")
+	)
+	(wire
+		(pts
 			(xy 107.95 107.95) (xy 111.76 107.95)
 		)
 		(stroke
@@ -3273,6 +3309,17 @@
 			(justify left bottom)
 		)
 		(uuid "1aa53afb-a30a-4473-b461-4ca50310a1de")
+	)
+	(label "PWM2"
+		(at 137.16 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ac7ce1d-30d0-45d3-96a0-33aa767c93ab")
 	)
 	(label "IN3_1"
 		(at 97.79 163.83 0)
@@ -3593,6 +3640,17 @@
 		)
 		(uuid "fa3583c6-8e80-421f-ad0f-ee89cb1cc686")
 	)
+	(label "PWM2"
+		(at 166.37 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe5623b1-c995-4e48-a23e-2551ad6464c3")
+	)
 	(global_label "EN"
 		(shape input)
 		(at 135.89 110.49 180)
@@ -3628,28 +3686,6 @@
 		(uuid "c932bbc8-a601-489f-a653-ac122c892ac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.2762 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM2"
-		(shape input)
-		(at 135.89 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e03c8232-3d6b-44ba-ad11-edce8bda5eaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5225 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,6 +9352,248 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 208.28 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af3a3655-1e2d-4bbd-a5aa-311cb051601b")
+		(property "Reference" "#PWR021"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9f97f84-0656-46f1-a287-7680ae9bf3fb")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/0c7bf7f0-7f1e-40ac-a6a8-46292d6f8ac7"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba902167-125a-4430-a155-da00eccc1c66")
+		(property "Reference" "R114"
+			(at 206.756 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10kR"
+			(at 214.63 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AC0805FR-7W10KL"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY CURRENT" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING FREQUENCY" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER SERIES" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE CHARACTERISTIC" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE GRADE" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPC LAND PATTERN NAME" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f51e6dfb-d9f2-44e7-8ee4-485f40c01130")
+		)
+		(pin "2"
+			(uuid "59cb45fc-fbdd-4824-8d44-781e5849fbc5")
+		)
+		(instances
+			(project "Nodes"
+				(path "/7f1aa41b-970a-42cc-8701-1d90e3bd89a6/0c7bf7f0-7f1e-40ac-a6a8-46292d6f8ac7"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 210.82 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11104,7 +11382,7 @@
 	)
 	(sheet
 		(at 173.99 153.67)
-		(size 26.67 5.08)
+		(size 26.67 7.62)
 		(stroke
 			(width 0)
 			(type solid)
@@ -11114,7 +11392,7 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "6315e0aa-8f7c-4b03-9e1e-36418e09c46a")
-		(property "Sheetname" "PWM Level Shifter 24V"
+		(property "Sheetname" "PWM Level Shifter"
 			(at 173.99 152.4 0)
 			(effects
 				(font
@@ -11123,7 +11401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PWM_24V.kicad_sch"
+		(property "Sheetfile" "PWM.kicad_sch"
 			(at 173.99 153.67 0)
 			(effects
 				(font
@@ -11133,7 +11411,7 @@
 				(hide yes)
 			)
 		)
-		(pin "PWM" output
+		(pin "PWM_1" output
 			(at 173.99 156.21 180)
 			(effects
 				(font
@@ -11142,6 +11420,16 @@
 				(justify left)
 			)
 			(uuid "f4bde68d-afd1-4ab8-8f1b-107e44685135")
+		)
+		(pin "PWM_2" output
+			(at 173.99 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6232f84d-24e5-4f33-9674-9a829d5b9b52")
 		)
 		(instances
 			(project "Nodes"
