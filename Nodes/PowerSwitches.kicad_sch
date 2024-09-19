@@ -8103,7 +8103,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "VNQ9080AJTR"
+		(property "Value" "VNQ9025AJTR"
 			(at 110.49 72.898 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET LINK" "https://www.st.com/resource/en/datasheet/vnq9080aj.pdf"
+		(property "DATASHEET LINK" "https://www.st.com/resource/en/datasheet/vnq9025aj.pdf"
 			(at 104.902 34.29 0)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "VNQ9080AJTR"
+		(property "MANUFACTURER_PART_NUMBER" "VNQ9025AJTR"
 			(at 104.902 34.29 0)
 			(effects
 				(font
@@ -8180,7 +8180,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PART NUMBER" "511-VNQ9080AJTR"
+		(property "MOUSER PART NUMBER" "511-VNQ9025AJTR"
 			(at 104.902 34.29 0)
 			(effects
 				(font
@@ -8190,7 +8190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNQ9080AJTR?qs=MyNHzdoqoQKvlnwVdNzF7A%3D%3D"
+		(property "MOUSER PRICE/STOCK" ""
 			(at 104.902 34.29 0)
 			(effects
 				(font
@@ -8980,7 +8980,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "VNQ9080AJTR"
+		(property "Value" "VNQ9025AJTR"
 			(at 110.49 144.018 0)
 			(effects
 				(font
@@ -9017,7 +9017,7 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET LINK" "https://www.st.com/resource/en/datasheet/vnq9080aj.pdf"
+		(property "DATASHEET LINK" "https://www.st.com/resource/en/datasheet/vnq9025aj.pdf"
 			(at 104.902 105.41 0)
 			(effects
 				(font
@@ -9047,7 +9047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "VNQ9080AJTR"
+		(property "MANUFACTURER_PART_NUMBER" "VNQ9025AJTR"
 			(at 104.902 105.41 0)
 			(effects
 				(font
@@ -9057,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PART NUMBER" "511-VNQ9080AJTR"
+		(property "MOUSER PART NUMBER" "511-VNQ9025AJTR"
 			(at 104.902 105.41 0)
 			(effects
 				(font
@@ -9067,7 +9067,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNQ9080AJTR?qs=MyNHzdoqoQKvlnwVdNzF7A%3D%3D"
+		(property "MOUSER PRICE/STOCK" ""
 			(at 104.902 105.41 0)
 			(effects
 				(font
