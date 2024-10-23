@@ -1447,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 59.69) (xy 156.21 69.85)
+			(xy 156.21 55.88) (xy 156.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 59.69) (xy 156.21 59.69)
+			(xy 146.05 55.88) (xy 156.21 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1857,7 @@
 	)
 	(global_label "AnIN3V3_1"
 		(shape output)
-		(at 148.59 59.69 180)
+		(at 146.05 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1867,7 +1867,7 @@
 		)
 		(uuid "3c1a0652-c604-4598-a7dc-8673cf13e168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.7472 59.69 0)
+			(at 133.2072 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
