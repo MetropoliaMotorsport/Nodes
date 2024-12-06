@@ -27,8 +27,8 @@
 % These define global texts that are used in headers and titles.
 \title{Nodes}
 \author{Metropolia Motorsport}
-\date{October 2024}
-\revision{Revision 1}
+\date{December 2024}
+\revision{Revision 1.1}
 
 \companylogo{\textbf{Metropolia Motosport}
 \includegraphics[width=2cm]{Datasheet_electronics/image.png}} % This will include the logo
@@ -591,8 +591,8 @@ Formula \ref{eq:voltage_filter} could be simplified into Formula , because $R_L$
 R_H=3.24*10^3*(V_{IN}/3.3-1)
 \end{equation}
 The supplied voltage should not be higher than the powered voltage, namely 24V, to avoid breakdowns and problems with op-amp. 
-\\ Each output has a testpoint (for example \textit{T20}) that can be used for testing, but more information about this can be found in Section \nameref{ssec:testpoint}. 
-\\ If the supplied signal amplitude is greater than 9V, then it is necessary to use a 1nF capacitance instead of 10nF capacitors like on the Figure \ref{fig:filter_24v}. \\Also, if an NTC sensor is connected, it is important to short the inductor (for example \textit{L25} from the Figure \ref{fig:filter_5v}) and the resistor (for example \textit{R95} from the Figure \ref{fig:filter_5v}) on its path, and solder a 680 ohm resistor (for example \textit{R98} from the Figure \ref{fig:filter_5v}) into the DNA position, but this action requires subsequent tests after that. \\When a 5000 step resolution is wanted and lower offset voltage, then it is recommended to use ADA4522-2 or more expensive solutions of the same footprint SOIC-8 instead of LM358\cite{ref17}. \\\\More theoretical information about the operation of filters can be found in the excellent Scott's thesis\cite{ref18} \\
+\\ Each output has a testpoint (for example \textit{T20}) that can be used for testing, but more information on this can be found in Section \nameref{ssec:testpoint}. 
+\\ If the supplied signal amplitude is greater than 9V, then it is necessary to use a 1nF capacitance instead of 10nF capacitors as in Figure \ref{fig:filter_24v}. \\Also, if an NTC sensor is connected, it is important to short the inductor (for example \textit{L25} from the Figure \ref{fig:filter_5v}) and the resistor (for example \textit{R95} from the Figure \ref{fig:filter_5v}) on its path, and solder a 680 ohm resistor (for example \textit{R98} from the Figure \ref{fig:filter_5v}) into the DNA position, but this action requires subsequent tests after that. \\When a 5000 step resolution is desired and a lower offset voltage, it is recommended to use ADA4522-2 or more expensive solutions of the same footprint SOIC-8 instead of LM358\cite{ref17}. \\\\More theoretical information about the operation of filters can be found in the excellent Scott's thesis\cite{ref18} \\
 \newpage
 \begin{figure} [H]
     \centering
@@ -615,8 +615,9 @@ The supplied voltage should not be higher than the powered voltage, namely 24V, 
 \newpage
 \subsection{CAN}
 \label{ssec:can}
-In order for the communication between Nodes and ECU to be as stable as possible, CAN is used, which, thanks to two connection lines (High and Low), is able to work in a variety of conditions, which is important during active operation of the car. This protocol is quite reliable, simple thanks to the priority system and protected from external interference. In version 2.1, Nodes had two different CANs, but in the new versions 2.2 there is only one left, since the Analog Node chip was replaced. The chips themselves that transmit and receive data are not able to directly send data to the main CAN line, so auxiliary components TCAN1462VDRQ1\cite{ref19} (\textit{IC3} and \textit{IC4}) are used that were specially designed for this. These components are powered by 5V, so if ST-LINK is connected, but not the main 24V power supply, CAN will not work due to insufficient voltage. \\ 
-In order for data to be exchanged on the main line, a terminating resistance is needed between High and Low. There must be two terminators at different ends of the main data transmission line and one of them is located on Nodes. The resistance value should be about 120 Ohms on one terminator. In new versions, a switch \textit{SW3} was introduced that allows to connect or disconnect the terminator without soldering, which saves time. In general, just two 60 Ohm resistors connected in series are enough, as it was before, but in new versions, together with the switch, there are now 4 resistors (\textit{R46}, \textit{R37}, \textit{R47} and \textit{R109}) instead of two. This is necessary in case of switching off the terminator, data transmission will not be affected, so it simply bypasses these resistors along the least resistance path.
+In order for the communication between Nodes and ECU to be as stable as possible, CAN is used, which, thanks to two connection lines (High and Low), is able to work in a variety of conditions, which is important during active operation of the car. This protocol is quite reliable, simple thanks to the priority system and protected from external interference. In version 2.1, Nodes had two different CANs, but in the new versions 2.2 there is only one left, since the Analog Node chip was replaced. The chips themselves that transmit and receive data are not able to directly send data to the main CAN line, so the auxiliary components TCAN1462VDRQ1\cite{ref19} (\textit{IC3} and \textit{IC4}) are used that were specially designed for this. These components are powered by 5V, so if ST-LINK is connected, but not the main 24V power supply, CAN will not work due to insufficient voltage. \\ 
+In order for data to be exchanged on the main line, a terminating resistance is needed between High and Low. There must be two terminators at different ends of the main data transmission line, and one of them is located on Nodes. The resistance value should be about 120 Ohms on one terminator. In new versions, a switch \textit{SW3} was introduced that allows the terminator to connect or disconnect without soldering, saving time. In general, just two 60 Ohm resistors connected in series are enough, as it was before, but in new versions, together with the switch, there are now 4 resistors (\textit{R46}, \textit{R37}, \textit{R47} and \textit{R109}) instead of two. This is necessary in the case of switching off the terminator, data transmission will not be affected, so it simply bypasses these resistors along the least resistance path.\\
+Starting from version 2.2 and up to 2.2.5, an error was discovered on Nodes related to mixed-up connections for CAN in Analog Node, namely, CANRx and CANTx were mixed up, which was successfully corrected in version 2.2.6.
 \begin{figure} [h]
     \centering
     \includegraphics[width=1\linewidth]{Datasheet_electronics/CAN_Power_Node.png}

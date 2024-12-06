@@ -4150,6 +4150,17 @@
 		)
 		(uuid "14671072-55bf-42a6-ab6e-062502bd6bba")
 	)
+	(label "CANTx"
+		(at 186.69 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19d4482b-7263-4a45-b35e-ebe649ff1796")
+	)
 	(label "ADC1"
 		(at 74.93 137.16 0)
 		(fields_autoplaced yes)
@@ -4226,17 +4237,6 @@
 			(justify left bottom)
 		)
 		(uuid "581218ba-a874-41b5-9ef8-af6a0d28f611")
-	)
-	(label "CANTx"
-		(at 186.69 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bf375e1-812b-4a66-a03a-62f5e329ac79")
 	)
 	(label "ADC12"
 		(at 139.7 80.01 0)
@@ -4502,17 +4502,6 @@
 		)
 		(uuid "f06b92c6-8e14-4d1f-a001-ee1e42c7f429")
 	)
-	(label "CANRx"
-		(at 186.69 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0a5b13e-696e-430e-a049-c0c7a1275eae")
-	)
 	(label "ADC11"
 		(at 74.93 119.38 0)
 		(fields_autoplaced yes)
@@ -4523,6 +4512,17 @@
 			(justify left bottom)
 		)
 		(uuid "f0ed7480-8dbe-494d-9953-d7b01d1b0ca7")
+	)
+	(label "CANRx"
+		(at 186.69 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdc818c2-0521-4002-a622-10635ec9c977")
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape output)
